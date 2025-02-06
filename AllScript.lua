@@ -21,13 +21,13 @@ loadstring(game:HttpGet(("https://raw.githubusercontent.com/murak1sa/abcxyz/refs
     }
   })
 
-       MinimizeButton({
-       Image = "https://create.roblox.com/store/asset/125482774222113/abcxyz?assetType=Decal&externalSource=www",
-       Size = {40, 40},
-       Color = Color3.fromRGB(10, 10, 10),
-       Corner = true,
-       Stroke = false,
-       StrokeColor = Color3.fromRGB(255, 0, 0)
+      MinimizeButton({
+         Image = "rbxassetid://125482774222113",
+         Size = UDim2.new(0, 50, 0, 50),
+         Color = Color3.fromRGB(10, 10, 10),
+         Corner = true,
+         Stroke = false,
+         StrokeColor = Color3.fromRGB(255, 0, 0)
       })
       
 --- Tab ---
